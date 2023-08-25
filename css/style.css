@@ -1,6 +1,13 @@
 /*Import Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+/*Remove default style set by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 header {
     font-family: 'Poppins', sans-serif;
 }
@@ -13,3 +20,5 @@ body {
     background: url(../assets/images/slogan-background.jpg) no-repeat center center/cover;
     text-transform: uppercase;
 }
+
+/*Styling the nav bar*/
