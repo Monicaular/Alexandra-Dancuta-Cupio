@@ -34,6 +34,7 @@ h1 {
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
+    font-size: 20px;
 
 }
 
@@ -44,6 +45,7 @@ header a {
 #slogan {
     background: url(../assets/images/slogan-background-1.jpg) no-repeat center center/cover;
     text-shadow: 2px 2px white;
+    
 }
 
 /*Styling the nav bar*/
@@ -74,14 +76,44 @@ nav {
 }
 
 /*Nav Icon*/
-#nav-icon:checked~nav{
-    display:block;
-
+#nav-icon:checked~nav {
+    display: block;
 }
 
+#nav-icon {
+    display: none;
+}
+
+.nav-icon-label {
+    font-size: 2rem;
+}
 
 main {
     background-color: #ffcd58;
     /*Making the main part of the page take up the surplus space in roder to push footer down*/
     flex: 1 0 auto;
+    margin-top: 100px;
+}
+
+/*Using media query for larger devices*/
+@media screen and (min-width: 780px) {
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none; /*hide box shadow as no loger needed*/
+        width: fit-content; 
+        padding-right: 1rem; /*the menu items won't stick to the edge of the screen*/
+    }
+    #menu {
+        display: flex;  
+    }
+
+    #menu > li { 
+        padding-left: 1rem; /*add space between the menu items*/
+    }
+
+    .nav-icon-label {
+        display: none; /*hide the nav icon as no longer needed*/
+    }
 }
