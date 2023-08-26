@@ -18,16 +18,29 @@ body {
 }
 
 header {
-    font-family: 'Poppins', sans-serif;
+    background-color: #ff5c4d;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #4d0000;
+
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
 
+}
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 #slogan {
     background: url(../assets/images/slogan-background-1.jpg) no-repeat center center/cover;
-    text-transform: capitalize;
     text-shadow: 2px 2px white;
-
 }
 
 main {
@@ -37,3 +50,16 @@ main {
 }
 
 /*Styling the nav bar*/
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+.laboratory {
+    border-bottom: 2px solid #4d0000;
+}
