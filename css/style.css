@@ -18,12 +18,15 @@ body {
 }
 
 header {
-    background-color: #ff5c4d;
+    background-color:#b8b8b5;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #4d0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 
 }
 
@@ -43,12 +46,6 @@ header a {
     text-shadow: 2px 2px white;
 }
 
-main {
-    background-color: #ffcd58;
-    /*Making the main part of the page take up the surplus space in roder to push footer down*/
-    flex: 1 0 auto;
-}
-
 /*Styling the nav bar*/
 
 #menu {
@@ -62,4 +59,29 @@ main {
 }
 .laboratory {
     border-bottom: 2px solid #4d0000;
+}
+
+/*Styling navigation bar*/
+nav {
+    position: absolute;
+    background-color: #b8b8b5;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #4d0000;
+    display: none;
+    top:100%;
+}
+
+/*Nav Icon*/
+#nav-icon:checked~nav{
+    display:block;
+
+}
+
+
+main {
+    background-color: #ffcd58;
+    /*Making the main part of the page take up the surplus space in roder to push footer down*/
+    flex: 1 0 auto;
 }
