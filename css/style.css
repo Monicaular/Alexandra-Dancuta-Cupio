@@ -30,7 +30,7 @@ header {
 
 }
 
-main{
+main {
     background-color: #ffcd58;
     /*Making the main part of the page take up the surplus space in roder to push footer down*/
     flex: 1 0 auto;
