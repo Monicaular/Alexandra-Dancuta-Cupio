@@ -14,11 +14,11 @@ body {
     flex-direction: column;
     /*general style for the project*/
     font-family: 'Poppins', sans-serif;
-    color:#000000;
+    color: #000000;
 }
 
 header {
-    background-color: #b8b8b5;
+    background-color:#ff5c4d;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -43,12 +43,6 @@ header a {
     color: inherit;
 }
 
-#slogan {
-    background: url(../assets/images/slogan-background-1.jpg) no-repeat center center/cover;
-    text-shadow: 2px 2px white;
-
-}
-
 /*Styling the nav bar*/
 
 #menu {
@@ -68,7 +62,7 @@ header a {
 /*Styling navigation bar*/
 nav {
     position: absolute;
-    background-color: #b8b8b5;
+    background-color: #ff5c4d;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -94,7 +88,7 @@ main {
     background-color: #dad870;
     /*Making the main part of the page take up the surplus space in roder to push footer down*/
     flex: 1 0 auto;
-    margin-top: 103px;
+    margin-top: 48px;
 }
 
 /*Footer*/
@@ -105,10 +99,11 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-media i {
     font-size: 200%;
     padding: 10%;
-    color:#000000;
+    color: #000000;
 }
 
 /*Using media query for larger devices*/
@@ -141,13 +136,14 @@ main {
 
     #slogan {
         font-size: 200%;
+        background-color: #ff5c4d;
         /*beautify the header*/
         line-height: 60px;
         margin: 0 0.5rem;
     }
 
     main {
-        margin-top: 120px;
+        margin-top: 66px;
         /*set margin so the main content is not covered by the header*/
     }
 }
@@ -155,7 +151,8 @@ main {
 /*Media query to bigger screens such as laptops*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 2px solid #000000; /*double check later as this does not work now*/
+        border-bottom: 2px solid #000000;
+        /*double check later as this does not work now*/
     }
 
 
