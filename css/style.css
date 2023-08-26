@@ -92,7 +92,7 @@ main {
     background-color: #ffcd58;
     /*Making the main part of the page take up the surplus space in roder to push footer down*/
     flex: 1 0 auto;
-    margin-top: 100px;
+    margin-top: 103px;
 }
 
 /*Using media query for larger devices*/
@@ -115,5 +115,15 @@ main {
 
     .nav-icon-label {
         display: none; /*hide the nav icon as no longer needed*/
+    }
+
+    #slogan {
+        font-size: 200%; /*beautify the header*/
+        line-height: 60px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 120px; /*set margin so the main content is not covered by the header*/
     }
 }
