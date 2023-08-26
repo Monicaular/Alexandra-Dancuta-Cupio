@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background-color:#b8b8b5;
+    background-color: #b8b8b5;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -42,10 +42,11 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
 #slogan {
     background: url(../assets/images/slogan-background-1.jpg) no-repeat center center/cover;
     text-shadow: 2px 2px white;
-    
+
 }
 
 /*Styling the nav bar*/
@@ -56,9 +57,10 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
+
 .laboratory {
     border-bottom: 2px solid #4d0000;
 }
@@ -72,7 +74,7 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #4d0000;
     display: none;
-    top:100%;
+    top: 100%;
 }
 
 /*Nav Icon*/
@@ -97,33 +99,50 @@ main {
 
 /*Using media query for larger devices*/
 @media screen and (min-width: 780px) {
+
     /*Header*/
     nav {
         display: block;
         position: relative;
-        box-shadow: none; /*hide box shadow as no loger needed*/
-        width: fit-content; 
-        padding-right: 1rem; /*the menu items won't stick to the edge of the screen*/
-    }
-    #menu {
-        display: flex;  
+        box-shadow: none;
+        /*hide box shadow as no loger needed*/
+        width: fit-content;
+        padding-right: 1rem;
+        /*the menu items won't stick to the edge of the screen*/
     }
 
-    #menu > li { 
-        padding-left: 1rem; /*add space between the menu items*/
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+        /*add space between the menu items*/
     }
 
     .nav-icon-label {
-        display: none; /*hide the nav icon as no longer needed*/
+        display: none;
+        /*hide the nav icon as no longer needed*/
     }
 
     #slogan {
-        font-size: 200%; /*beautify the header*/
+        font-size: 200%;
+        /*beautify the header*/
         line-height: 60px;
         margin: 0 0.5rem;
     }
 
     main {
-        margin-top: 120px; /*set margin so the main content is not covered by the header*/
+        margin-top: 120px;
+        /*set margin so the main content is not covered by the header*/
     }
+}
+
+/*Media query to bigger screens such as laptops*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 2px solid #4d0000; /*double check later as this does not work now*/
+    }
+
+
 }
