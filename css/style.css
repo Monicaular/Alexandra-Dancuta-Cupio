@@ -8,17 +8,32 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*general style for the project*/
+    font-family: 'Poppins', sans-serif;
+    color: #4d0000;
+}
+
 header {
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
+
 
 #slogan {
-    background: url(../assets/images/slogan-background.jpg) no-repeat center center/cover;
-    text-transform: uppercase;
+    background: url(../assets/images/slogan-background-1.jpg) no-repeat center center/cover;
+    text-transform: capitalize;
+    text-shadow: 2px 2px white;
+
+}
+
+main{
+    background-color: #ffcd58;
+    /*Making the main part of the page take up the surplus space in roder to push footer down*/
+    flex: 1 0 auto;
 }
 
 /*Styling the nav bar*/
