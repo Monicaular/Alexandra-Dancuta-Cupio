@@ -108,9 +108,13 @@ main {
     width: 100%;
 }
 
-#slogan-text > h2, #slogan-text > h3 {
+#slogan-text>h2,
+#slogan-text>h3 {
     color: #36635b;
 }
+
+/*About & Services Section*/
+
 /*Footer*/
 #social-media {
     text-align: center;
@@ -171,17 +175,55 @@ main {
     /*Slogan*/
     #slogan-text {
         width: 400px;
-        left: 30px;
-       
-
-
-}
-
-/*Media query to bigger screens such as laptops*/
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 2px solid #000000;
-        /*double check later as this does not work now*/
+        right: 30px;
     }
-}
 
+    /*Media query to bigger screens such as laptops*/
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 2px solid #000000;
+            /*double check later as this does not work now*/
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 20px;
+        }
+
+        .grid-services {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 20px;
+
+            /*Resizing images*/
+        }
+
+        .basic img {
+            grid-column: 8/ span 5;
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .semi img {
+            grid-column: 8/ span 5;
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .gel img {
+            grid-column: 8/ span 5;
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .polygel img {
+            grid-column: 8/ span 5;
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .grid-container h2 {
+            text-align: center;
+        }
+    }
