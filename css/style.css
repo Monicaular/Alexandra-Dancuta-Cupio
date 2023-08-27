@@ -185,45 +185,32 @@ main {
             /*double check later as this does not work now*/
         }
 
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            gap: 20px;
-        }
+        #about, #services  {
+        text-align: center;
+        padding: 20px;
+       /* margin: 20px 20px;*/
+        background-color: rgba(233, 198, 192, 0.5);
+       }
 
         .grid-services {
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
+            grid-template-columns: repeat(8, 1fr);
             gap: 20px;
-
-            /*Resizing images*/
+            max-width: 1400px;
+            margin: 20px auto;
         }
 
-        .basic img {
-            grid-column: 8/ span 5;
+        .basic, .semi, .gel, .polygel {
+            grid-column: span 2;
+            padding: 10px 20px;
+        }
+
+     /*Resizing images*/
+
+        .basic img, .semi img, .gel img, .polygel img {
             width: 100%;
-            border-radius: 6px;
+            border-radius: 8px;
+            border: 4px solid #E9C2BD;
         }
 
-        .semi img {
-            grid-column: 8/ span 5;
-            width: 100%;
-            border-radius: 6px;
-        }
-
-        .gel img {
-            grid-column: 8/ span 5;
-            width: 100%;
-            border-radius: 6px;
-        }
-
-        .polygel img {
-            grid-column: 8/ span 5;
-            width: 100%;
-            border-radius: 6px;
-        }
-
-        .grid-container h2 {
-            text-align: center;
-        }
     }
