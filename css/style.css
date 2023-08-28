@@ -116,16 +116,35 @@ main {
 /*About & Services Section*/
 
 .about-text {
-      background-color: rgba(163, 188, 184, 0.5);
-      margin: 20px 20px;
+    background-color: rgba(163, 188, 184, 0.5);
+    margin: 20px 20px;
 }
 
 #about,
-#services {
+#services,
+.appointment {
     text-align: center;
     padding: 20px;
     margin: 20px 0;
     background-color: rgba(233, 198, 192, 0.5);
+}
+
+.appointment {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.appointment:hover {
+    background-color: #AEC7C3;
+}
+
+.appointment a {
+    text-decoration: none;
 }
 
 .grid-services {
@@ -135,23 +154,24 @@ main {
     margin: 20px auto;
 }
 
- .basic,
- .semi,
- .gel,
- .polygel {
-     grid-column: 8fr;
-     padding: 10px 20px;
- }
+.basic,
+.semi,
+.gel,
+.polygel {
+    grid-column: 8fr;
+    padding: 10px 20px;
+}
 
- /*Resizing images*/
- .basic img,
- .semi img,
- .gel img,
- .polygel img {
-     width: 100%;
-     border-radius: 8px;
-     border: 4px solid #E9C2BD;
- }
+/*Resizing images*/
+.basic img,
+.semi img,
+.gel img,
+.polygel img {
+    width: 100%;
+    border-radius: 8px;
+    border: 4px solid #E9C2BD;
+}
+
 /*Footer*/
 #social-media {
     text-align: center;
@@ -174,6 +194,7 @@ main {
 
 /*Using media query for larger devices*/
 @media screen and (min-width: 768px) {
+
     /*Header*/
     nav {
         display: block;
@@ -218,20 +239,20 @@ main {
         width: 400px;
         right: 30px;
     }
- 
+
     .grid-services {
         grid-template-columns: repeat(8, 1fr);
         gap: 20px;
         max-width: 1400px;
-       /* margin: 20px auto;*/
+        /* margin: 20px auto;*/
     }
-        
+
     .basic,
     .semi,
     .gel,
     .polygel {
-    grid-column: span 2;
-    padding: 10px 20px;
+        grid-column: span 2;
+        padding: 10px 20px;
     }
 
     /*Resizing images*/
@@ -243,10 +264,11 @@ main {
         border-radius: 8px;
         border: 4px solid #E9C2BD;
     }
-/*Media query to bigger screens such as laptops*/
-@media screen and (min-width: 992px) {
-     #menu a:hover {
-        border-bottom: 2px solid #000000;
-        /*double check later as this does not work now*/
+
+    /*Media query to bigger screens such as laptops*/
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 2px solid #000000;
+            /*double check later as this does not work now*/
         }
-}
+    }
