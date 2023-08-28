@@ -130,9 +130,14 @@ main {
     color: #000000;
 }
 
+#social-media {
+    background-color: rgba(163, 188, 184, 0.5);
+    border-top: 2px solid #000000;
+
+}
+
 /*Using media query for larger devices*/
 @media screen and (min-width: 768px) {
-
     /*Header*/
     nav {
         display: block;
@@ -178,21 +183,26 @@ main {
         right: 30px;
     }
 
-    /*Media query to bigger screens such as laptops*/
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 2px solid #000000;
-            /*double check later as this does not work now*/
+/*Media query to bigger screens such as laptops*/
+@media screen and (min-width: 992px) {
+     #menu a:hover {
+        border-bottom: 2px solid #000000;
+        /*double check later as this does not work now*/
         }
 
-        #about, #services  {
+    .about-text {
+            background-color: rgba(163, 188, 184, 0.5);
+            margin: 20px 20px;  
+        }   
+
+    #about, #services  {
         text-align: center;
         padding: 20px;
-       /* margin: 20px 20px;*/
+        margin: 20px 20px;
         background-color: rgba(233, 198, 192, 0.5);
-       }
+        }
 
-        .grid-services {
+    .grid-services {
             display: grid;
             grid-template-columns: repeat(8, 1fr);
             gap: 20px;
@@ -200,14 +210,14 @@ main {
             margin: 20px auto;
         }
 
-        .basic, .semi, .gel, .polygel {
+    .basic, .semi, .gel, .polygel {
             grid-column: span 2;
             padding: 10px 20px;
         }
 
      /*Resizing images*/
 
-        .basic img, .semi img, .gel img, .polygel img {
+    .basic img, .semi img, .gel img, .polygel img {
             width: 100%;
             border-radius: 8px;
             border: 4px solid #E9C2BD;
