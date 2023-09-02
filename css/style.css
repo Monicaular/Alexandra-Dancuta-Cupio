@@ -22,7 +22,7 @@ h1,
 h2,
 h3 {
     font-family: "Poppins", sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 20px;
 }
@@ -296,7 +296,6 @@ main {
     }
 
     
-
     /*Media query to bigger screens such as laptops*/
     @media screen and (min-width: 992px) {
         #menu a:hover {

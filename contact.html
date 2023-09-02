@@ -41,7 +41,40 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+        <section>
+            <h2>Contact Us!</h2>
+            <form>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter your first name here">
+                <br>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter your last name here">
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email here"><br>
+                <label for="contactnumber">Contact Number:</label>
+                <input type="text" id="contactnumber" name="contactnumber" placeholder="Enter your phone number here"><br>
+                <p>What method of contact would you prefer for us to use when getting in touch with you again:</p>
+                <input type="checkbox" name="contact" value="telephone" id="telephone" placeholder=>
+                <label for="telephone">Telephone</label><br>
+                <input type="checkbox" name="contact" value="text" id="text" placeholder=>
+                <label for="text">Text</label><br>
+                <input type="checkbox" name="contact" value="email" id="email" placeholder=>
+                <label for="email">Email</label><br>
+                <label for="service-type">What kind of service are you interested in?</label><br>
+                <select name="service-type" id="service-type">
+                    <option value="basic">Basic/Standard Manicure</option>
+                    <option value="basic">Semi-Permanent Manicure</option>
+                    <option value="basic">Gel Manicure</option>
+                    <option value="basic">Polygel Manicure</option>
+                </select>
+                <br>
+                <label for="bio">Your Message:</label><br>
+                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+            </form>
+        </section>
+    </main>
     <footer>
       <ul id="social-media">
         <li>
