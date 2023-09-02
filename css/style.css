@@ -178,13 +178,12 @@ main {
     display: none;
 }
 
-.nail-photos img {
+#nail-photos img {
     width: 100%;
-    line-height: 1em;
-    display: grid;
+    line-height: 1em;/*to prevent the break image path*/
 }
 
-.nail-photos {
+#nail-photos {
     line-height: 0;
 }
 
@@ -206,6 +205,15 @@ main {
 #social-media {
     background-color: rgba(163, 188, 184, 0.5);
     border-top: 2px solid #000000;
+}
+
+/*Media query for larger screens and landscape mobile phones*/
+@media screen and (min-width:576px) {
+    #nail-photos{
+        column-count: 2;
+        column-gap: 0;
+    }
+
 }
 
 /*Using media query for larger devices*/
@@ -283,23 +291,20 @@ main {
 
     /*Gallery Page*/
 
-    .nail-photos {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        
-        
+    #nail-photos {
+       column-count: 3;
     }
 
-    .nail-photos img {
-        max-width: 100%;
-        max-height: 270px;/*checked what's the picture with the smallest width and applied it*/
-        object-fit: cover;
-    }
+    
 
     /*Media query to bigger screens such as laptops*/
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 2px solid #000000;
             /*double check later as this does not work now*/
+        }
+
+        #nail-photos {
+            column-count: 4;
         }
     }
