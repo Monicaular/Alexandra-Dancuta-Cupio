@@ -89,7 +89,30 @@ main {
     /*Making the main part of the page take up the surplus space in roder to push footer down*/
     flex: 1 0 auto;
     margin-top: 48px;
+    /*Set display to flex for contact page*/
+    display: flex;
+    flex-direction: column;
 }
+
+/*Booking the appointment section*/
+#book-app {
+    background-image: url(../assets/images/contact-us-image.jpg);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+.details-form {
+    color: #000000;
+    margin-bottom: 20px;
+    background-color: rgba(173, 198, 194, 0.6);
+    padding: 30px;
+}
+
+
+
+
 
 /*Slogan section*/
 #slogan {
