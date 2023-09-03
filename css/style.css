@@ -110,10 +110,6 @@ main {
     padding: 30px;
 }
 
-
-
-
-
 /*Slogan section*/
 #slogan {
     height: 600px;
@@ -203,7 +199,8 @@ main {
 
 #nail-photos img {
     width: 100%;
-    line-height: 1em;/*to prevent the break image path*/
+    line-height: 1em;
+    /*to prevent the break image path*/
 }
 
 #nail-photos {
@@ -232,9 +229,24 @@ main {
 
 /*Media query for larger screens and landscape mobile phones*/
 @media screen and (min-width:576px) {
-    #nail-photos{
+    #nail-photos {
         column-count: 2;
         column-gap: 0;
+    }
+
+    .grid-services {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        max-width: 576px;
+        /* margin: 20px auto;*/
+    }
+    
+    .basic,
+    .semi,
+    .gel,
+    .polygel {
+        grid-column: span 4;
+        padding: 10px 20px;
     }
 
 }
@@ -287,6 +299,7 @@ main {
         right: 30px;
     }
 
+    /*Main Content*/
     .grid-services {
         grid-template-columns: repeat(8, 1fr);
         gap: 20px;
@@ -315,10 +328,10 @@ main {
     /*Gallery Page*/
 
     #nail-photos {
-       column-count: 3;
+        column-count: 3;
     }
 
-    
+
     /*Media query to bigger screens such as laptops*/
     @media screen and (min-width: 992px) {
         #menu a:hover {
