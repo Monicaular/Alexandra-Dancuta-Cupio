@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alexandra Dancuta, Cupio Ambassador</title>
     <!--favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="assets/favicon-ad/favicon.ico" />
     <!--Stylesheet CSS-->
     <link rel="stylesheet" href="css/style.css" />
     <!-- Meta tags for search engines -->
@@ -42,39 +39,86 @@
       </nav>
     </header>
     <main>
-        <section id="book-app">
-            <h2>Let us book you an appointment!</h2>
-            <form class="details-form">
-                <label for="firstname">First Name:</label>
-                <input type="text" id="firstname" name="firstname" class="details-text" placeholder="Enter your first name here" required>
-                <br>
-                <label for="lastname">Last Name:</label>
-                <input type="text" id="lastname" name="lastname" class="details-text" placeholder="Enter your last name here" required>
-                <br>
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" class="details-text" placeholder="Enter your email here" required><br>
-                <label for="contactnumber">Contact Number:</label>
-                <input type="text" id="contactnumber" name="contactnumber" class="details-text" placeholder="Enter your phone number here" required><br>
-                <p>What method of contact would you prefer for us to use when getting in touch with you again:</p>
-                <input type="checkbox" name="contact" value="telephone" id="telephone">
-                <label for="telephone">Telephone</label><br>
-                <input type="checkbox" name="contact" value="text" id="text">
-                <label for="text">Text</label><br>
-                <input type="checkbox" name="contact" value="email" id="email">
-                <label for="email">Email</label><br>
-                <label for="service-type">What kind of service are you interested in?</label><br>
-                <select name="service-type" id="service-type">
-                    <option value="basic">Basic/Standard Manicure</option>
-                    <option value="basic">Semi-Permanent Manicure</option>
-                    <option value="basic">Gel Manicure</option>
-                    <option value="basic">Polygel Manicure</option>
-                </select>
-                <br>
-                <label for="bio">Your Message (please mention your availability):</label><br>
-                <textarea name="bio" id="bio" cols="23" rows="10" placeholder="Enter your message here"></textarea><br>
-                <input type="submit" value="Submit" id="submit">
-            </form>
-        </section>
+      <section id="book-app">
+        <h2>Let us book you an appointment!</h2>
+        <form class="details-form">
+          <label for="firstname">First Name:</label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            class="details-text"
+            placeholder="Enter your first name here"
+            required
+          />
+          <br />
+          <label for="lastname">Last Name:</label>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            class="details-text"
+            placeholder="Enter your last name here"
+            required
+          />
+          <br />
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="details-text"
+            placeholder="Enter your email here"
+            required
+          /><br />
+          <label for="contactnumber">Contact Number:</label>
+          <input
+            type="text"
+            id="contactnumber"
+            name="contactnumber"
+            class="details-text"
+            placeholder="Enter your phone number here"
+            required
+          /><br />
+          <p>
+            What method of contact would you prefer for us to use when getting
+            in touch with you again:
+          </p>
+          <input
+            type="checkbox"
+            name="contact"
+            value="telephone"
+            id="telephone"
+          />
+          <label for="telephone">Telephone</label><br />
+          <input type="checkbox" name="contact" value="text" id="text" />
+          <label for="text">Text</label><br />
+          <input type="checkbox" name="contact" value="email" id="email" />
+          <label for="email">Email</label><br />
+          <label for="service-type"
+            >What kind of service are you interested in?</label
+          ><br />
+          <select name="service-type" id="service-type">
+            <option value="basic">Basic/Standard Manicure</option>
+            <option value="basic">Semi-Permanent Manicure</option>
+            <option value="basic">Gel Manicure</option>
+            <option value="basic">Polygel Manicure</option>
+          </select>
+          <br />
+          <label for="bio"
+            >Your Message (please mention your availability):</label
+          ><br />
+          <textarea
+            name="bio"
+            id="bio"
+            cols="23"
+            rows="10"
+            placeholder="Enter your message here"
+          ></textarea
+          ><br />
+          <input type="submit" value="Submit" id="submit" />
+        </form>
+      </section>
     </main>
     <footer>
       <ul id="social-media">

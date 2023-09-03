@@ -290,7 +290,7 @@ main {
 
     main {
         margin-top: 66px;
-        /*set margin so the main content is not covered by the header*/
+        /*set margin so the main content so is not covered by the header*/
     }
 
     /*Slogan*/
@@ -342,4 +342,5 @@ main {
         #nail-photos {
             column-count: 4;
         }
+
     }
