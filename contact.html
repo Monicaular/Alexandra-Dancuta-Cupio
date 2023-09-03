@@ -40,8 +40,8 @@
     </header>
     <main>
       <section id="book-app">
-        <h2>Let us book you an appointment!</h2>
         <form class="details-form">
+        <h2><i class="fa-solid fa-calendar-check"></i> Let us book you an appointment!</h2>
           <label for="firstname">First Name:</label>
           <input
             type="text"
@@ -80,21 +80,6 @@
             placeholder="Enter your phone number here"
             required
           /><br />
-          <p>
-            What method of contact would you prefer for us to use when getting
-            in touch with you again:
-          </p>
-          <input
-            type="checkbox"
-            name="contact"
-            value="telephone"
-            id="telephone"
-          />
-          <label for="telephone">Telephone</label><br />
-          <input type="checkbox" name="contact" value="text" id="text" />
-          <label for="text">Text</label><br />
-          <input type="checkbox" name="contact" value="email" id="email" />
-          <label for="email">Email</label><br />
           <label for="service-type"
             >What kind of service are you interested in?</label
           ><br />
@@ -118,6 +103,15 @@
           ><br />
           <input type="submit" value="Submit" id="submit" />
         </form>
+      </section>
+      <section id="findus">
+        <div id="address">
+            <h2> How to find us</h2>
+            <p><i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps/place/Toften+2,+6818+%C3%85rre,+Denmark/@55.572896,8.6613301,17z/data=!3m1!4b1!4m6!3m5!1s0x464b18263fc058b5:0x71448f6f4bd68ea!8m2!3d55.572893!4d8.663905!16s%2Fg%2F11c5pb28s6?entry=ttu" target="_blank"
+            rel="noopener"
+            aria-label="Find us on Google Maps(opens in a new tab)">Toften 2, 6818 Årre, Denmark</a></p>
+            <img src="assets/images/map.webp" alt="map with the dropped pin on location">
+        </div>
       </section>
     </main>
     <footer>

@@ -92,48 +92,10 @@ main {
     /*Set display to flex for contact page*/
     display: flex;
     flex-direction: column;
+
 }
 
-/*Booking the appointment section*/
-#book-app {
-    background-image: url(../assets/images/contact-us-photo-new.webp);
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-}
-
-.details-form {
-    color: #000000;
-    margin-bottom: 20px;
-    background-color: rgba(173, 198, 194, 0.6);
-    padding: 30px;
-}
-
-/*Slogan section*/
-#slogan {
-    height: 600px;
-    width: 100%;
-    background: url("../assets/images/slogan-background-initial.webp") no-repeat center center/cover;
-    position: relative;
-}
-
-#slogan-text {
-    background-color: rgba(233, 198, 192, 0.5);
-    font-size: 150%;
-    text-transform: capitalize;
-    position: absolute;
-    top: 10%;
-    width: 100%;
-}
-
-#slogan-text>h2,
-#slogan-text>h3 {
-    color: #36635b;
-}
-
-/*About & Services Section*/
-
+/*About & Services Section*/ 
 .about-text {
     background-color: rgba(163, 188, 184, 0.5);
     margin: 20px 20px;
@@ -205,6 +167,70 @@ main {
 
 #nail-photos {
     line-height: 0;
+}
+
+/*Booking the appointment section*/
+/*Inspired from Love running project*/
+#book-app {
+    background-image: url(..//assets/images/contact-us-photo-new.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    order: 1;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+}
+/*below code inspired from Love Running Project*/
+.details-form {
+    color: #000000;
+    margin-bottom: 20px;
+    background-color: rgba(173, 198, 194, 0.6);
+}
+
+#book-app>h2 {
+    padding: 40px;
+}
+
+#findus {
+    order: 2;
+}
+
+#findus h2 {
+    padding: 10px;
+    background-color:#aec7c3;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#address p {
+    padding: 20px;
+}
+
+#address img{
+    width: 100%;
+}
+
+/*Slogan section*/
+#slogan {
+    height: 600px;
+    width: 100%;
+    background: url("../assets/images/slogan-background-initial.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#slogan-text {
+    background-color: rgba(233, 198, 192, 0.5);
+    font-size: 150%;
+    text-transform: capitalize;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+#slogan-text>h2,
+#slogan-text>h3 {
+    color: #36635b;
 }
 
 /*Footer*/
@@ -310,20 +336,6 @@ main {
         .polygel {
             padding: 10px 20px;
         }
-    /*.grid-services {
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        max-width: 968px;
-        /* margin: 20px auto;*/
-    }
-
-    /*.basic,
-    .semi,
-    .gel,
-    .polygel {
-        grid-column: span 2;
-        padding: 10px 20px;
-    }*/
 
     /*Resizing images*/
     .basic img,
@@ -341,8 +353,27 @@ main {
         column-count: 3;
     }
 
+    /*Appointment Form*/
 
-/*Media query to bigger screens such as laptops*/
+    .details-form {
+        max-width: 500px;
+        padding: 30px;
+        width: 100%;/*Use full width of the container*/
+        margin: 20px auto;/*Center horizontally within #book-app*/
+        position: relative;
+        
+    }
+
+    
+    #firstname:hover, #lastname:hover, #email:hover, #contactnumber:hover {
+        background-color: #e9c2bd;  
+    }
+     #submit:hover {
+        background-color:#aec7c3;
+    }  
+
+
+/*Media query to bigger screens such as laptops and desktop*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 2px solid #000000;
