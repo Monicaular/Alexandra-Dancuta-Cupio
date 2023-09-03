@@ -238,7 +238,6 @@ main {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         max-width: 576px;
-        /* margin: 20px auto;*/
     }
 
     .basic,
@@ -298,20 +297,33 @@ main {
     }
 
     /*Main Content*/
+
     .grid-services {
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
-        max-width: 1400px;
+        max-width: 768px;
+        }
+    
+        .basic,
+        .semi,
+        .gel,
+        .polygel {
+            padding: 10px 20px;
+        }
+    /*.grid-services {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        max-width: 968px;
         /* margin: 20px auto;*/
     }
 
-    .basic,
+    /*.basic,
     .semi,
     .gel,
     .polygel {
         grid-column: span 2;
         padding: 10px 20px;
-    }
+    }*/
 
     /*Resizing images*/
     .basic img,
@@ -328,13 +340,27 @@ main {
     #nail-photos {
         column-count: 3;
     }
-}
+
 
 /*Media query to bigger screens such as laptops*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 2px solid #000000;
         /*double check later as this does not work now*/
+    }
+
+    .grid-services {
+        grid-template-columns: repeat(8, 1fr);
+        gap: 20px;
+        max-width: 1400px;
+    }
+
+    .basic,
+    .semi,
+    .gel,
+    .polygel {
+        grid-column: span 2;
+        padding: 10px 20px;
     }
 
     #nail-photos {
