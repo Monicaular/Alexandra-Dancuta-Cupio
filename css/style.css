@@ -43,7 +43,7 @@ header {
 }
 
 header a {
-    text-decoration: none;* /*to remove the underline from the title*/
+    text-decoration: none; /*to remove the underline from the title*/
     color: inherit;
 }
 
@@ -255,8 +255,9 @@ main {
 }
 
 #social-media {
-    background-color: rgba(163, 188, 184, 0.5);
-    border-top: 2px solid #000000;
+    /*background-color: rgba(163, 188, 184, 0.5);*/
+    background-color: #aec7c3;;
+    border-top: 3px solid #CA8077;
 }
 
 /*Media query for larger screens and landscape mobile phones*/
