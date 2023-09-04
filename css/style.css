@@ -9,6 +9,7 @@
 }
 
 /*General Styles for the page*/
+/*Credit to Love Running Porject for using the flexbox for the below*/
 body {
     min-height: 100vh;
     display: flex;
@@ -28,20 +29,22 @@ h3 {
 }
 
 /*Header*/
+/*Credit to Love running project for styling the below*/
 header {
     background-color: #aec7c3;
-    padding: 0 1rem;
     position: fixed;
-    z-index: 99;
+    z-index: 1;
     width: 100%;
-    box-shadow: 0 2px 2px #000000;
+    padding: 10px;
+    box-shadow: 0 3px 3px #CA8077;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 
 header a {
-    text-decoration: none;
+    text-decoration: none;* /*to remove the underline from the title*/
     color: inherit;
 }
 
