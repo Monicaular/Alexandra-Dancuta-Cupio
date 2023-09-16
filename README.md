@@ -36,7 +36,7 @@ On the contact page, there is clear navigation and a form to book appointments.
 
 + Navigation Bar
   
-  + It is shown andhas a fix position on all of the pages including the form-received page.
+  + It is shown and has a fixed position on all of the pages including the form-received page.
   + The business's name, Neglelaboratoriet, can be found on the left side of the navigation, which is placed on the top of the page. When clicked, this would lead back to the top.
   + The additional navigation links are aligned to the right hand side and arranged in a row. These are called: Home, Gallery and Contact.
   + Because the screen is substantially smaller on a mobile device, the navigation links have a drop off toggle to allow for more room.
@@ -54,6 +54,7 @@ On the contact page, there is clear navigation and a form to book appointments.
         + The gallery consists of multiple photos of the previous services done for their customers.
         + The contact page is composed of 'Let us book you on appointment' and how to find us.
         + The thank you page consists of 'Thank you for contacting us! We will come back to you shortly'.
+       
 ![A screenshot with the main header section](assets/images/main-header.png)
   
 + [Home Page](https://monicaular.github.io/Alexandra-Dancuta-Cupio/index.html)
@@ -70,16 +71,108 @@ On the contact page, there is clear navigation and a form to book appointments.
 
     + Services Section
       + Its purpose is to include all of the services that the company provides, along with a brief explanation of each one for the first-time visitors.
-      + It illustrates examples of each of the service that the business if offering in order to get a visual idea for first-time users of what to expect.
+      + It illustrates examples of each of the service that the business is offering in order to get a visual idea for first-time users of what to expect.
   
     ![A screenshot of the Services Section](assets/images/services-section.png)
   
-  + Book Now Section
-    + It comprises of a Book Now button which takes the user to the contact page to fill in the form.
-    + It changes colour when user hovers on it in order for them to know where they are. 
+    + Book Now Section
+      + It comprises of a Book Now button which takes the user to the contact page to fill in the form.
+      + It changes colour when user hovers on it in order for them to know where they are. 
  
     ![A screenshotof the Book Now bar](assets/images/book-now-bar.png)
     ![A screenshot of the Book Now bar when hovered](assets/images/book-now-hovered.png)
+
++ [Gallery Page](https://monicaular.github.io/Alexandra-Dancuta-Cupio/gallery.html)
+    
+    + This page will provide the user with supporting ilustrastions so they can view more about the various services.
+    + It is important to the user as they will see previous services offered.
+
+![A screenshot of the Gallery page](assets/images/gallery-page.png)
+
++ [Contact Page](https://monicaular.github.io/Alexandra-Dancuta-Cupio/contact.html)
+    
+    + Form Section
+        + This page will allow the user to fill in their details and choose a service they would be interested in, as well as leave a contact number.
+        + This page can also be used as a feedback page as the user can leave a message for the business.
+  
+    ![Screnshot of the booking form](assets/images/book-an-appointment.png)
+
+    + The Thank You form-received section
+        + This helps the user know that their form has been submitted.
+
+    ![Screenshot of the form submitted page](assets/images/thank-you-form.png)
+    
+    + How to find us section
+        + This section is comprised of a link with the address which takes the user to a maps website with the location.
+        + It is important for the user as they can use the new window page to navigate to the salon's location.
+        + It has an image with the dropped pin for the users that are local and don't need the navigator.
+    
+    ![Screenshot with How to find us section](assets/images/how-to-find-us.png)
+
++ Footer
+  + Links to the facebook and instagram page of the business.
+  + It is important for the users as they can see extra info and also offers an easier way to contact the business.
+  + It is featured on all the pages.
+
+![Screenshot with the footer](assets/images/footer-features.png)
+
+## Features to be implemented
+
++ Additional images to the gallery.
++ Additional services for the business.
++ A live booking calendar.
+
+## Design
+
++ Colour Scheme
+
+    + Main colours used for the website:
+
+    ![Screenshot with the colour pallete used in designing the website](assets/images/main-colours-used.png)
+
++ Typography
+    + The font used is "Poppins" sans serif to make sure it will work for all kind of browsers.
+
++ Wireframes
+
+  + [Balsamiq](<https://balsamiq.com/wireframes/>)
+  
+  ![Screenshot of the website wireframe on mobile](assets/images/balsamiq.png)
+
+## Technologies Used
+
++ HTML5
++ CSS3
+
+## Frameworks, Libraries and Programs Used
+
++ Gitpod
+    + To write the code.
++ Git
+  + For vesion control.
++ Github
+  + Deployment of the website and storing the files online.
++ Google Fonts
+    + Import main font the website.
++ Am I Responsive
+    + Mockup picture for the README file.
+   
+## Testing
+
+Every page of the project was checked for errors using the W3C Markup Validator and W3C CSS Validator services.
+
++ [W3C Mark-Up Validator](<https://validator.w3.org/>)
++ [W3C CSS Validator](https://validator.w3.org/)
+
+### Validation Results
+
+* index.html
+
+  
+
+
+
+    
 
 
 

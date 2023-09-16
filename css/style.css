@@ -172,7 +172,6 @@ main {
 .semi,
 .gel,
 .polygel {
-    grid-column: 8fr;
     padding: 10px 20px;
 }
 
