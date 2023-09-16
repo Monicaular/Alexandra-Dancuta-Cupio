@@ -166,7 +166,54 @@ Every page of the project was checked for errors using the W3C Markup Validator 
 
 ### Validation Results
 
-* index.html
+<details><summary><b>index.html</b></summary>
+
+![Screenshot of the validating result for index.html](assets/images/w3-detailed-html-validator.png)
+</details>
+
+<details><summary><b>gallery.html</b></summary>
+
+![Screenshot of the gallery.html validation result](assets/images/w3-html-validator.png)</details>
+
+<details><summary><b>contact.html</b></summary>
+
+![Screenshot of the contact.html validation result](assets/images/w3-html-validator.png)</details>
+
+<details><summary><b>thank-you.html</b></summary>
+
+![Screenshot of the thank-you.html validation result](assets/images/w3-html-validator.png)</details>
+
+<details><summary><b>style.css</b></summary>
+
+![Screenshot of the style.css validation result](assets/images/css-validator.png)</details>
+
+### Manual Testing
++ The website was tested on Google Chrome, Microsoft Edge, and Firefox browsers.
++ The website was viewed on a desktop computer, laptop, and an iPhone 13 mobile phone.
++ A large amount of testing was done to ensure links between pages are working correctly on all pages.
++ Friends and relatives were asked to review the website for a better understanding of the user experience.
++ Dev Tools was used to test how the site looks on various screen sizes.
+
+### Lighthouse Report
+
+**Mobile Analisys**
+
+<details><summary>Home Page
+
+![Screenshot of the Lighthouse Report for the Home Page]()
+
+<details><summary>Gallery
+
+![Screenshot of the Lighthouse Report for the Gallery Page]()
+
+<details><summary>Contact
+
+![Screenshot of the Lighthouse Report for the Contact Page]()
+
+<details><summary>Thank-you
+
+![Screenshot of the Lighthouse Report for the Thank-You Page]()
+
 
   
 
