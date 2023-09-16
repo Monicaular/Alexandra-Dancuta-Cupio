@@ -419,7 +419,7 @@ main {
         background-color:#aec7c3;
     }  
 
-
+}
 /*Media query to bigger screens such as laptops and desktop*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -445,7 +445,7 @@ main {
         column-count: 4;/*Credit to Love Running Project for using masonry style*/
     }
 
-    .details-form{
+    .details-form {
         margin: 140px auto;
     }
 }
