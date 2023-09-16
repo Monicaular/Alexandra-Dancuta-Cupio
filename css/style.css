@@ -428,7 +428,7 @@ main {
     }
 
     .grid-services {
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 20px;
         max-width: 1400px;
     }
@@ -437,7 +437,6 @@ main {
     .semi,
     .gel,
     .polygel {
-        grid-column: span 2;
         padding: 10px 20px;
     }
 
