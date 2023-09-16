@@ -256,6 +256,17 @@ main {
     width: 100%;
 }
 
+#thankyoutext {
+    background-image: url(../assets/images/thankyou-background.webp);
+    background-size: cover;
+    background-position: 50%;
+    padding: 1.3em;
+    flex-grow: 1;
+    /*margin-bottom: 20px;*/
+    font-size: 1.3em;
+    text-align: center;
+}
+
 /*Footer*/
 #social-media {
     text-align: center;
@@ -295,6 +306,10 @@ main {
     .gel,
     .polygel {
         padding: 10px 20px;
+    }
+
+    #thankyoutext {
+        font-size: 2rem;
     }
 }
 
