@@ -146,16 +146,18 @@ On the contact page, there is clear navigation and a form to book appointments.
 
 ## Frameworks, Libraries and Programs Used
 
-+ Gitpod
++ [Codeanywhere](https://app.codeanywhere.com/)
     + To write the code.
-+ Git
-  + For vesion control.
-+ Github
++ [Github](https://github.com/)
   + Deployment of the website and storing the files online.
-+ Google Fonts
++ [Google Fonts](https://fonts.google.com/)
     + Import main font the website.
-+ Am I Responsive
++ [Am I Responsive](https://ui.dev/amiresponsive)
     + Mockup picture for the README file.
++ [Hover.css](https://ianlunn.github.io/Hover/)
+    + To underline the navigtion links when hovered.
++ [Font Awesome](https://fontawesome.com/)
+    + To add icons for the social media pages and for the appointment section.
    
 ## Testing
 
@@ -166,24 +168,24 @@ Every page of the project was checked for errors using the W3C Markup Validator 
 
 ### Validation Results
 
-<details><summary><b>index.html</b></summary>
+<details><summary>index.html</summary>
 
 ![Screenshot of the validating result for index.html](assets/images/w3-detailed-html-validator.png)
 </details>
 
-<details><summary><b>gallery.html</b></summary>
+<details><summary>gallery.html</summary>
 
 ![Screenshot of the gallery.html validation result](assets/images/w3-html-validator.png)</details>
 
-<details><summary><b>contact.html</b></summary>
+<details><summary>contact.html</summary>
 
 ![Screenshot of the contact.html validation result](assets/images/w3-html-validator.png)</details>
 
-<details><summary><b>thank-you.html</b></summary>
+<details><summary>thank-you.html</summary>
 
 ![Screenshot of the thank-you.html validation result](assets/images/w3-html-validator.png)</details>
 
-<details><summary><b>style.css</b></summary>
+<details><summary>style.css</summary>
 
 ![Screenshot of the style.css validation result](assets/images/css-validator.png)</details>
 
@@ -198,21 +200,108 @@ Every page of the project was checked for errors using the W3C Markup Validator 
 
 **Mobile Analisys**
 
-<details><summary>Home Page
+<details><summary>Home</summary>
 
-![Screenshot of the Lighthouse Report for the Home Page]()
+![Screenshot of the Lighthouse Report for the Home Page](assets/images/lighthouse-index-mobile.png)
+</details>
 
-<details><summary>Gallery
+<details><summary>Gallery</summary>
 
-![Screenshot of the Lighthouse Report for the Gallery Page]()
+![Screenshot of the Lighthouse Report for the Gallery Page](assets/images/lighthouse-gallery-mobile.png)
+</details>
 
-<details><summary>Contact
+<details><summary>Contact</summary>
 
-![Screenshot of the Lighthouse Report for the Contact Page]()
+![Screenshot of the Lighthouse Report for the Contact Page](assets/images/lighthouse-contact-mobile.png)
+</details>
 
-<details><summary>Thank-you
+<details><summary>Thank-you</summary>
 
-![Screenshot of the Lighthouse Report for the Thank-You Page]()
+![Screenshot of the Lighthouse Report for the Thank-You Page](assets/images/lighthouse-thank-you-mobile.png)
+</details>
+
+**Desktop Analysis**
+
+<details><summary>Home</summary>
+
+![Screenshot of the Lighthouse Report for the Home Page](assets/images/lighthouse-index-desktop.png)
+</details>
+
+<details><summary>Gallery</summary>
+
+![Screenshot of the Lighthouse Report for the Gallery Page](assets/images/lighthouse-gallery-desktop.png)
+</details>
+
+<details><summary>Contact</summary>
+
+![Screenshot of the Lighthouse Report for the Contact Page](assets/images/lighthouse-contact-desktop.png)
+</details>
+
+<details><summary>Thank-you</summary>
+
+![Screenshot of the Lighthouse Report for the Thank-You Page](assets/images/lighthouse-thankyou-desktop.png)
+</details>
+
+## Deployment and local deployment 
+
+### GitHub Pages
+
+GitHub Pages has been used to deploy live version of the website.
+
+1. Log in to GitHub and locate [GitHub Repository Alexandra Dancuta Cupio](<https://github.com/Monicaular/Alexandra-Dancuta-Cupio>)
+2. On the navigation bar locate "Settings" button on the menu.
+3. In the"Code and Automotation" category on the left, find the "Pages" button.
+4. Find the "Source" section and change the button that says "none" to "deploy from a branch" and save.
+5. Below this, find the "Branch" section and change from "none" to "main" then make sure the next button is on "root" and save. 
+6. The page should automatically refresh, if not refresh it manually. 
+7. Scroll back to locate the now-published site [link](https://monicaular.github.io/Alexandra-Dancuta-Cupio/) in the "GitHub Pages" section.
+
+## Forking the GitHub Repository
+
+By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
+
+1. Log in to GitHub and locate [GitHub Repository Alexandra Dancuta Cupio](<https://github.com/Monicaular/Alexandra-Dancuta-Cupio>)
+2. At the top of the Repository, under the main navigation, find the "Fork" button.
+3. Now you there should be a  copy of the original repository in your GitHub account.
+
+## Local Clone
+
+1. Log in to GitHub and locate [GitHub Repository Alexandra Dancuta Cupio](<https://github.com/Monicaular/Alexandra-Dancuta-Cupio>)
+2. Under the repository name press "Clone or Download"
+3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open Git Bash
+5. Change the current working directory to the location where you would like the cloned directory to be made.
+6. Type 'git clone' and then paste the URL copied in the step 3.
+7. Press Enter and your local clone should be created.
+
+## Credits
+
+### Content
+
++ All content was written by the developer. 
++ [Red Ketchup Color Picker](https://redketchup.io/color-picker) was used to decide which colours to use.
+
+### Code
+
++ Code on how to make the navigation bar toggle was based on [Love Running Project - Code Institute](https://www.youtube.com/watch?v=h3f6iPPmlIs&t=1s)
++ Code on how to style a gallery page was based on [Love Running Project - Code Institute](https://www.youtube.com/watch?v=vuIpkGnBjX4&t=560s)
++ Understanding the concept of css grid [Net Ninja](https://www.youtube.com/watch?v=xPuYbmmPdEM)
++ The ReadMe template was provided by [Code Institute](https://github.com/Code-Institute-Solutions/readme-template)
+
+### Media
+
++ [Pexels](https://www.pexels.com/) was used for the background images.
++ [Xconvert](https://www.xconvert.com/downloads) for resizing photos. 
++ [Neglelaboratoriet](https://www.facebook.com/ad.negle) for all the other photos in the gallery. 
+
+## Acknowledgement
+
++ Mentor Mitko Bacharov for all the usefull feedback and the availability.
++ Slack Community for encouragement and various informations.
++ Tutors for being there when stucked.
+
+
+
 
 
   
