@@ -49,7 +49,7 @@ On the contact page, there is clear navigation and a form to book appointments.
 
 + Main Heading
     + It consists of a background picture that features three nail polish bottles that are spilled.
-    + Main heading is composed of the business's name and the the three navigation links namely: Home, Gallery and Contact:
+    + Main heading is composed of the business's name and the three navigation links namely: Home, Gallery and Contact:
         + The home page is composed of the motto 'LIFE'S SHORT, YOUR NAILS SHOULDN'T BE TRY SOME NAIL MAGIC TODAY!
         + The gallery consists of multiple photos of the previous services done for their customers.
         + The contact page is composed of 'Let us book you on appointment' and how to find us.
@@ -69,22 +69,22 @@ On the contact page, there is clear navigation and a form to book appointments.
   
 ![A screenhot of the About section](assets/images/about-section.png)
 
-    + Services Section
-      + Its purpose is to include all of the services that the company provides, along with a brief explanation of each one for the first-time visitors.
-      + It illustrates examples of each of the service that the business is offering in order to get a visual idea for first-time users of what to expect.
++ Services Section
+    + Its purpose is to include all of the services that the company provides, along with a brief explanation of each one for the first-time visitors.
+    + It illustrates examples of each of the service that the business is offering in order to get a visual idea for first-time users of what to expect.
   
 ![A screenshot of the Services Section](assets/images/services-section.png)
   
-    + Book Now Section
-      + It comprises of a Book Now button which takes the user to the contact page to fill in the form.
-      + It changes colour when user hovers on it in order for them to know where they are. 
++ Book Now Section
+    + It comprises of a Book Now button which takes the user to the contact page to fill in the form.
+    + It changes colour when user hovers on it in order for them to know where they are. 
  
 ![A screenshotof the Book Now bar](assets/images/book-now-bar.png)
 ![A screenshot of the Book Now bar when hovered](assets/images/book-now-hovered.png)
 
 + [Gallery Page](https://monicaular.github.io/Alexandra-Dancuta-Cupio/gallery.html)
     
-    + This page will provide the user with supporting ilustrastions so they can view more about the various services.
+    + This page will provide the user with supporting ilustrations so they can view more about the various services.
     + It is important to the user as they will see previous services offered.
 
 ![A screenshot of the Gallery page](assets/images/gallery-page.png)
@@ -104,8 +104,8 @@ On the contact page, there is clear navigation and a form to book appointments.
     
   + How to find us section
     + This section is comprised of a link with the address which takes the user to a maps website with the location.
-        + It is important for the user as they can use the new window page to navigate to the salon's location.
-        + It has an image with the dropped pin for the users that are local and don't need the navigator.
+    + It is important for the user as they can use the new window page to navigate to the salon's location.
+    + It has an image with the dropped pin for the users that are local and don't need the navigator.
     
 ![Screenshot with How to find us section](assets/images/how-to-find-us.png)
 
@@ -128,7 +128,7 @@ On the contact page, there is clear navigation and a form to book appointments.
 
     + Main colours used for the website:
 
-    <img src="assets/images/main-colours-used.png" alt="Screenshot with the colour pallete used in designing the website" width="400" height="400">
+    <img src="assets/images/main-colours-used.png" alt="Screenshot with the colour pallete used in designing the website" width="400" height="420">
 
 + Typography
     + The font used is "Poppins" sans serif to make sure it will work for all kind of browsers.
