@@ -97,13 +97,13 @@ On the contact page, there is clear navigation and a form to book appointments.
   
 ![Screnshot of the booking form](assets/images/book-an-appointment.png)
 
-    + The Thank You form-received section
-        + This helps the user know that their form has been submitted.
+  + The Thank You form-received section
+    + This helps the user know that their form has been submitted.
 
 ![Screenshot of the form submitted page](assets/images/thank-you-form.png)
     
-    + How to find us section
-        + This section is comprised of a link with the address which takes the user to a maps website with the location.
+  + How to find us section
+    + This section is comprised of a link with the address which takes the user to a maps website with the location.
         + It is important for the user as they can use the new window page to navigate to the salon's location.
         + It has an image with the dropped pin for the users that are local and don't need the navigator.
     
@@ -128,7 +128,7 @@ On the contact page, there is clear navigation and a form to book appointments.
 
     + Main colours used for the website:
 
-    <img src="assets/images/main-colours-used.png" alt="Screenshot with the colour pallete used in designing the website" width="200" height="100">
+    <img src="assets/images/main-colours-used.png" alt="Screenshot with the colour pallete used in designing the website" width="400" height="400">
 
 + Typography
     + The font used is "Poppins" sans serif to make sure it will work for all kind of browsers.
