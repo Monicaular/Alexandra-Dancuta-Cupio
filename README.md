@@ -196,6 +196,13 @@ Every page of the project was checked for errors using the W3C Markup Validator 
 + Friends and relatives were asked to review the website for a better understanding of the user experience.
 + Dev Tools was used to test how the site looks on various screen sizes.
 
+### Solved bugs
+
++ When adding the favicon, I have noticed it wouldn't show in the preview. I have checked the links in the html file and realised I was not using it properly. This has been fixed and it's working now.
++ When testing on larger screens such as laptop and desktop, I have noticed the first picture in the services section was displaying smaller than the other ones. The relevant media query has been added and fixed the issue.
++ When adding the propery to undeline the navigation bar when hovered, this did not seem to work as it was orewritten in the media query with another property. With the help of the tutor, I managed to fix it.
+
+
 ### Lighthouse Report
 
 **Mobile Analisys**
